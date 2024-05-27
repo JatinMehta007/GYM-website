@@ -1,0 +1,126 @@
+body {
+    font-family: 'Vina Sans', cursive;
+    font-size: 22px;    
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/gym.jpg');
+    background-size: 1400px 610px;
+    background-repeat: no-repeat;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 4px;
+    top: 4%;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    color: pink;
+}
+.left img {
+    width: 214px;
+    margin: -42px -12px;
+    padding: 15px 22px
+}
+
+.left div {
+    text-align: right;
+    margin: -121px -144px;
+
+}
+
+.mid {
+    display: block;
+    width: 39%;
+    margin: 12px auto;
+    border: 2px solid white;
+}
+
+.right {
+    position: absolute;
+    right: 4px;
+    top: 4%;
+    display: inline-block;
+
+}
+
+.btn {
+    font-family: 'Vina Sans', cursive;
+    font-size: 22px;
+    color: azure;
+    background-color: black;
+    padding: 9px 15px;
+    margin: 0px 14px;
+    border: 2px solid white;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: pink;
+    text-decoration: underline;
+
+}
+
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li {
+    display: inline-block;
+
+}
+
+.navbar li a {
+    color: azure;
+    text-decoration: none;
+    padding: 12px 12px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: pink;
+
+}
+
+.container {
+    background-color: black;
+    text-align: center;
+    border: 2px solid white;
+    /* margin: 396px 853px;
+    padding: 6px -23px; */
+    /* width: 36%; */
+   margin-top: 500px;
+    border-radius: 0px;
+}
+.form-group input {
+    font-family: 'Vina Sans', cursive;
+    text-align: center;
+    display: block;
+    width: 198px;
+    padding: 8px 15px;
+    border: 2px solid white;
+    margin: 3px auto
+}
+
+.btn1 {
+    color: pink;
+    text-decoration: underline;
+    width: 236px;
+    font-family: 'Vina Sans', cursive;
+    font-size: 22px;
+
+    background-color: black;
+    padding: 9px 15px;
+    margin: 0px 14px;
+    border: 2px solid white;
+    border-radius: 12px;
+    cursor: pointer;
+}
